@@ -1,0 +1,45 @@
+{
+  "fecha": "2026-11-21",
+  "alcance": "Páginas independientes dentro del ERP existente",
+  "menus": {
+    "Compras": [
+      "compras.php",
+      "recepciones.php",
+      "cuentas_por_pagar.php"
+    ],
+    "Inventarios": [
+      "stock.php",
+      "kardex.php",
+      "inventario.php"
+    ],
+    "Logistica": [
+      "envios.php",
+      "traslados.php",
+      "panel.php",
+      "auditoria.php"
+    ]
+  },
+  "expediente": "envio.php?id=14",
+  "validacion": {
+    "comprobaciones_http_paginas": 115,
+    "fallos_http_paginas": 0,
+    "regresion_http": 33,
+    "navegacion_menu_compras": "compras.php; grupo Compras",
+    "navegacion_menu_inventarios": "stock.php; grupo Inventarios",
+    "enlace_stock_kardex": "kardex.php?producto=15; filtro conservado al recargar",
+    "enlace_envio_expediente": "envio.php?id=14; expediente cargado después de recargar",
+    "enlace_volver_envios": "envios.php",
+    "enlace_antiguo": "index.php#compras redirige a compras.php",
+    "navegacion_interna_por_pestanas": false,
+    "errores_consola": 0
+  },
+  "capturas": [
+    "paginas-separadas-2026-11-21.jpg",
+    "pagina-envios-2026-11-21.jpg"
+  ],
+  "limites": [
+    "Verificación visual en el tamaño existente del navegador.",
+    "No se modificaron reglas de negocio, esquema ni operaciones comerciales o logísticas.",
+    "La suite de páginas inspecciona HTTP; la ejecución JavaScript se verificó por separado en el navegador."
+  ]
+}

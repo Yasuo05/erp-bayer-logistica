@@ -1,0 +1,139 @@
+{
+  "pasadas": 33,
+  "ok": true,
+  "fecha": "2026-11-17T20:46:47.3833796-05:00",
+  "casos": [
+    {
+      "caso": "Formulario de acceso disponible",
+      "ok": true
+    },
+    {
+      "caso": "Ingreso real con cuenta de ejemplo",
+      "ok": true
+    },
+    {
+      "caso": "Pantalla logística y token CSRF",
+      "ok": true
+    },
+    {
+      "caso": "Listado JSON de envíos persistidos",
+      "ok": true
+    },
+    {
+      "caso": "Expediente con balance e historial",
+      "ok": true
+    },
+    {
+      "caso": "POST sin CSRF rechazado",
+      "ok": true
+    },
+    {
+      "caso": "Salida antigua exige los controles del expediente",
+      "ok": true
+    },
+    {
+      "caso": "Entrega antigua no permite saltar los intentos",
+      "ok": true
+    },
+    {
+      "caso": "Alta manual sin origen comercial rechazada",
+      "ok": true
+    },
+    {
+      "caso": "Intentos inválidos conservan versión y balance",
+      "ok": true
+    },
+    {
+      "caso": "Listado limitado a sede activa Cañete",
+      "ok": true
+    },
+    {
+      "caso": "Expediente de otra sede rechazado",
+      "ok": true
+    },
+    {
+      "caso": "Consulta de stock por almacén ajeno rechazada",
+      "ok": true
+    },
+    {
+      "caso": "Impresión de otra sede rechazada",
+      "ok": true
+    },
+    {
+      "caso": "Regresión GET /api/resumen",
+      "ok": true
+    },
+    {
+      "caso": "Regresión GET /api/movimientos",
+      "ok": true
+    },
+    {
+      "caso": "Regresión GET /api/ordenes",
+      "ok": true
+    },
+    {
+      "caso": "Regresión GET /api/recepciones",
+      "ok": true
+    },
+    {
+      "caso": "Regresión GET /api/transferencias",
+      "ok": true
+    },
+    {
+      "caso": "Regresión GET /api/conteos",
+      "ok": true
+    },
+    {
+      "caso": "Regresión GET /api/cuentas-pagar",
+      "ok": true
+    },
+    {
+      "caso": "Regresión GET /api/auditoria",
+      "ok": true
+    },
+    {
+      "caso": "Exportación Excel stock",
+      "ok": true
+    },
+    {
+      "caso": "Excel stock contiene una hoja válida",
+      "ok": true
+    },
+    {
+      "caso": "Exportación Excel kardex",
+      "ok": true
+    },
+    {
+      "caso": "Excel kardex contiene una hoja válida",
+      "ok": true
+    },
+    {
+      "caso": "Exportación Excel ordenes",
+      "ok": true
+    },
+    {
+      "caso": "Excel ordenes contiene una hoja válida",
+      "ok": true
+    },
+    {
+      "caso": "Servidor protege /.env",
+      "ok": true
+    },
+    {
+      "caso": "Servidor protege /.runtime/base-local.sql",
+      "ok": true
+    },
+    {
+      "caso": "Servidor protege /sql/bayer_pucchun_erp_v2.sql",
+      "ok": true
+    },
+    {
+      "caso": "Servidor protege /scripts/migrar-logistica.php",
+      "ok": true
+    },
+    {
+      "caso": "Sin sesión se exige ingreso",
+      "ok": true
+    }
+  ]
+}

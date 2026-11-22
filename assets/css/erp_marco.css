@@ -1,0 +1,104 @@
+/* GENERADO por scripts/generar_erp_marco_css.py desde assets/css/style.css: barra superior del ERP encapsulada (.erp-marco)
+   para los módulos con diseño propio (Facturación, Portal Bayer). Si cambias la barra en style.css, vuelve a generarlo:
+   python scripts/generar_erp_marco_css.py assets/css/style.css assets/css/erp_marco.css */
+:root { --bayer-navy: #10384F; --bayer-navy-dark: #0B2535; --bayer-navy-light: #1A4D6B; --bayer-green: #2E8B3D; --bayer-green-hover: #236E30; --bayer-green-bright: #89BA17; --bayer-green-soft: #EDF7EE; --bayer-cyan: #38B6EA; --bayer-amber: #F59E0B; --bayer-red: #EF4444; --bg-canvas: #F8FAFC; --card-bg: #FFFFFF; --border-subtle: #E2E8F0; --border-strong: #CBD5E1; --text-main: #0F172A; --text-muted: #64748B; --text-light: #94A3B8; --shadow-sm: 0 1px 2px 0 rgba(16, 56, 79, 0.05); --shadow-md: 0 4px 6px -1px rgba(16, 56, 79, 0.07), 0 2px 4px -2px rgba(16, 56, 79, 0.05); --shadow-lg: 0 10px 15px -3px rgba(16, 56, 79, 0.08), 0 4px 6px -4px rgba(16, 56, 79, 0.04); --shadow-bento: 0 20px 25px -5px rgba(16, 56, 79, 0.06), 0 8px 10px -6px rgba(16, 56, 79, 0.04); --radius-sm: 8px; --radius-md: 12px; --radius-lg: 18px; --radius-xl: 24px; }
+.top-nav.erp-marco { position: sticky; top: 0; z-index: 100; background: var(--bayer-navy); background: linear-gradient(135deg, var(--bayer-navy) 0%, var(--bayer-navy-dark) 100%); border-bottom: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 4px 20px rgba(11, 37, 53, 0.15); }
+.erp-marco .top-nav-inner { max-width: 1880px; width: 100%; margin: 0 auto; padding: 0 16px; height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 10px; position: relative; }
+.erp-marco .nav-brand { flex-shrink: 0; }
+.erp-marco .nav-brand .brand-link { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.erp-marco .brand-logo-wrap { width: 40px; height: 40px; background: #ffffff; border-radius: var(--radius-md); padding: 3px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); }
+.erp-marco .brand-logo-wrap img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.erp-marco .brand-text { display: flex; flex-direction: column; }
+.erp-marco .brand-title { color: #ffffff; font-weight: 800; font-size: 14px; letter-spacing: 0.8px; }
+.erp-marco .brand-tag { color: var(--bayer-green-bright); font-size: 11px; font-weight: 600; letter-spacing: 0.5px; }
+.erp-marco .nav-links { display: flex; align-items: center; justify-content: center; gap: 4px; flex: 1 1 auto; }
+.erp-marco .nav-item { display: flex; align-items: center; gap: 5px; color: rgba(255, 255, 255, 0.85); text-decoration: none; font-size: 12.5px; font-weight: 600; padding: 7px 10px; border-radius: var(--radius-md); white-space: nowrap; transition: all 0.2s ease; }
+.erp-marco .nav-item:hover { background: rgba(255, 255, 255, 0.1); color: #ffffff; }
+.erp-marco .nav-item.activo { background: var(--bayer-green); color: #ffffff; box-shadow: 0 4px 12px rgba(46, 139, 61, 0.35); }
+.erp-marco .nav-icon { width: 16px; height: 16px; flex-shrink: 0; }
+.erp-marco .nav-dropdown { position: relative; flex-shrink: 0; }
+.erp-marco .dropdown-trigger { background: transparent; border: none; display: flex; align-items: center; gap: 4px; color: rgba(255, 255, 255, 0.85); font-size: 12.5px; font-weight: 600; font-family: inherit; padding: 7px 9px; white-space: nowrap; border-radius: var(--radius-md); cursor: pointer; transition: all 0.2s ease; }
+.erp-marco .dropdown-trigger:hover, .erp-marco .nav-dropdown:hover .dropdown-trigger { background: rgba(255, 255, 255, 0.1); color: #ffffff; }
+.erp-marco .dropdown-trigger.activo { background: rgba(255, 255, 255, 0.15); color: #ffffff; box-shadow: inset 0 0 0 1px rgba(137, 186, 23, 0.5); }
+.erp-marco .chevron { width: 14px; height: 14px; transition: transform 0.2s ease; }
+.erp-marco .nav-dropdown:hover .chevron { transform: rotate(180deg); }
+.erp-marco .dropdown-menu { position: absolute; top: 100%; left: 0; min-width: 210px; background: #ffffff; border-radius: var(--radius-lg); border: 1px solid var(--border-subtle); box-shadow: 0 16px 32px rgba(16, 56, 79, 0.15); padding: 8px; margin-top: 6px; opacity: 0; visibility: hidden; transform: translateY(8px); transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1); display: flex; flex-direction: column; }
+.erp-marco .nav-dropdown:hover .dropdown-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+.erp-marco .dropdown-header { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; color: var(--text-light); padding: 6px 12px 4px; }
+.erp-marco .dropdown-item { color: var(--text-main); text-decoration: none; font-size: 13px; font-weight: 600; padding: 9px 12px; border-radius: var(--radius-sm); transition: all 0.15s ease; display: flex; align-items: center; }
+.erp-marco .dropdown-item:hover { background: var(--bayer-green-soft); color: var(--bayer-green); transform: translateX(3px); }
+.erp-marco .dropdown-item.item-activo { background: var(--bayer-green-soft); color: var(--bayer-green); font-weight: 700; }
+.erp-marco .nav-user-area { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.erp-marco .nav-toggle-btn { display: none; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.18); background: rgba(255, 255, 255, 0.08); color: #ffffff; cursor: pointer; transition: background 0.2s ease; }
+.erp-marco .nav-toggle-btn:hover { background: rgba(255, 255, 255, 0.16); }
+.erp-marco .system-status { display: flex; align-items: center; gap: 6px; background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.12); padding: 4px 10px; border-radius: 20px; }
+.erp-marco .status-pulse { width: 7px; height: 7px; background: var(--bayer-green-bright); border-radius: 50%; box-shadow: 0 0 8px var(--bayer-green-bright); }
+.erp-marco .status-label { font-size: 11px; font-weight: 700; color: #ffffff; letter-spacing: 0.5px; }
+.erp-marco .user-pill { display: flex; align-items: center; gap: 10px; background: rgba(255, 255, 255, 0.08); padding: 4px 12px 4px 4px; border-radius: 24px; border: 1px solid rgba(255, 255, 255, 0.12); }
+.erp-marco .avatar-circle { width: 32px; height: 32px; background: var(--bayer-green); color: #ffffff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 12px; }
+.erp-marco .user-info { display: flex; flex-direction: column; }
+.erp-marco .user-name { color: #ffffff; font-size: 12.5px; font-weight: 700; line-height: 1.2; }
+.erp-marco .user-role { color: #9fc3d6; font-size: 10.5px; text-transform: capitalize; }
+.erp-marco .logout-btn { flex-shrink: 0; color: rgba(255, 255, 255, 0.7); display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: var(--radius-sm); background: rgba(255, 255, 255, 0.06); transition: all 0.2s; }
+.erp-marco .logout-btn:hover { background: rgba(239, 68, 68, 0.2); color: #ff8080; }
+.erp-marco .logout-btn svg { width: 18px; height: 18px; }
+body.erp-embebido .main-container { flex: 1; max-width: 1480px; width: 100%; margin: 0 auto; padding: 0 24px 40px; }
+.page-header-bar.erp-marco { padding: 16px 0 8px; }
+.erp-marco .breadcrumb-trail { display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--text-muted); }
+.erp-marco .breadcrumb-trail a { color: var(--text-muted); text-decoration: none; font-weight: 600; }
+.erp-marco .breadcrumb-trail a:hover { color: var(--bayer-green); }
+.erp-marco .breadcrumb-trail .sep { color: var(--border-strong); }
+.erp-marco .group-crumb { color: var(--text-muted); }
+.erp-marco .current-crumb { color: var(--bayer-navy); font-weight: 700; }
+@media (max-width: 1540px) {
+  .erp-marco .top-nav-inner { padding: 0 14px; gap: 8px; }
+  .erp-marco .brand-text .brand-tag { display: none; }
+  .erp-marco .system-status { display: none; }
+  .erp-marco .nav-links { gap: 2px; }
+  .erp-marco .nav-item, .erp-marco .dropdown-trigger { font-size: 12px; padding: 6px 7px; }
+}
+@media (max-width: 2000px) {
+  .erp-marco .system-status { display: none; }
+}
+@media (max-width: 1720px) {
+  .erp-marco .user-pill .user-info { display: none; }
+  .erp-marco .user-pill { padding: 3px; }
+}
+@media (max-width: 1600px) {
+  .erp-marco .brand-text { display: none; }
+}
+@media (max-width: 1440px) {
+  .erp-marco .nav-toggle-btn { display: inline-flex; }
+  .erp-marco .nav-links { display: none; position: absolute; top: 64px; left: 0; right: 0; background: var(--bayer-navy-dark); border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.14); box-shadow: 0 18px 36px rgba(11, 37, 53, 0.35); padding: 12px 16px 18px; flex-direction: column; align-items: stretch; gap: 6px; max-height: calc(100vh - 64px); overflow-y: auto; z-index: 999; }
+  .erp-marco .nav-links.open { display: flex; }
+  .erp-marco .nav-links .nav-item, .erp-marco .nav-links .dropdown-trigger { width: 100%; justify-content: space-between; padding: 10px 12px; font-size: 13.5px; }
+  .erp-marco .nav-links .nav-item { justify-content: flex-start; }
+  .erp-marco .nav-links .dropdown-menu { position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none; border: none; background: rgba(255, 255, 255, 0.06); margin: 4px 0 6px; padding: 6px; display: none; }
+  .erp-marco .nav-links .nav-dropdown.open .dropdown-menu { display: block; }
+  .erp-marco .nav-links .dropdown-menu .dropdown-header { display: none; }
+  .erp-marco .nav-links .dropdown-menu .dropdown-item { color: rgba(255, 255, 255, 0.88); padding: 8px 12px; }
+  .erp-marco .nav-links .dropdown-menu .dropdown-item:hover, .erp-marco .nav-links .dropdown-menu .dropdown-item.item-activo { background: rgba(255, 255, 255, 0.12); color: #ffffff; }
+}
+.erp-marco .sede-select { padding: 6px 10px; font-size: 13px; min-width: 150px; font-family: inherit; font-weight: 600; color: var(--text-main); background: #ffffff; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); cursor: pointer; }
+.erp-marco .dropdown-subheader { font-size: 10.5px; font-weight: 700; color: var(--text-muted); padding: 8px 12px 2px; border-top: 1px solid var(--border-subtle); margin-top: 4px; }
+.erp-marco .dropdown-menu .dropdown-header + .dropdown-subheader { border-top: none; margin-top: 0; }
+@media (max-width: 1440px) {
+  .erp-marco .nav-links .dropdown-menu .dropdown-subheader { color: rgba(255, 255, 255, 0.55); border-top-color: rgba(255, 255, 255, 0.1); }
+}
+
+/* ---- Base de los módulos embebidos: tipografía y fondo del ERP ---- */
+body.erp-embebido { margin: 0; font-family: 'Plus Jakarta Sans', Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg-canvas); color: var(--text-main); display: flex; flex-direction: column; min-height: 100vh; }
+.erp-marco, .erp-marco * { box-sizing: border-box; font-family: 'Plus Jakarta Sans', Inter, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.5; }
+.erp-marco a { text-decoration: none; }
+.erp-marco .dropdown-menu { float: none; list-style: none; font-size: 13px; z-index: 1000; }
+.erp-marco .dropdown-item { width: auto; white-space: nowrap; border: 0; background-color: transparent; }
+.erp-marco .dropdown-item:hover, .erp-marco .dropdown-item.item-activo { background: var(--bayer-green-soft); }
+.erp-marco .nav-item { margin: 0; border: 0; }
+.erp-marco .nav-item::before { content: none; display: none; }
+.erp-marco form { margin: 0; }
+.erp-marco svg { display: inline-block; vertical-align: middle; }
+body.erp-embebido .erp-modulo { padding-top: 4px; }
+/* ---- Colores del ERP en los módulos: verde Pucchún como color principal (botones, enlaces, opción activa) ---- */
+body.erp-embebido { --primary: #2E8B3D; --primary-hover: #236E30; --primary-soft: #EDF7EE; --primary-strong: #10384F; --focus-ring: 0 0 0 3px rgba(46, 139, 61, 0.2); }
+body.erp-embebido .btn-primary { --bs-btn-bg: #2E8B3D; --bs-btn-border-color: #2E8B3D; --bs-btn-hover-bg: #236E30; --bs-btn-hover-border-color: #236E30; --bs-btn-active-bg: #236E30; --bs-btn-active-border-color: #236E30; --bs-btn-disabled-bg: #2E8B3D; --bs-btn-disabled-border-color: #2E8B3D; }
+body.erp-embebido .btn-outline-primary { --bs-btn-color: #2E8B3D; --bs-btn-border-color: #2E8B3D; --bs-btn-hover-bg: #2E8B3D; --bs-btn-hover-border-color: #2E8B3D; --bs-btn-active-bg: #236E30; }

@@ -1,0 +1,316 @@
+{
+  "fuente": "ERP-main.zip",
+  "sha256_fuente": "5668A44D7F7A683B105821DCCF7E4A25F9908E5780AD7D3104A6ACE0FEC1616F",
+  "cambios": [
+    {
+      "archivo": ".gitignore",
+      "tipo": "modificado",
+      "sha256": "68176AC9A0C2BC2B10A64BA8642B5E4EB47DC4874A4F1F55D3C537BB3E11314D"
+    },
+    {
+      "archivo": ".htaccess",
+      "tipo": "modificado",
+      "sha256": "6969A0C516DC9F88C9E0E0E78FA02BB5C24C4AC6323096C03E7CED61DA5106C5"
+    },
+    {
+      "archivo": "COLABORACION.md",
+      "tipo": "nuevo",
+      "sha256": "E34645C8D9547261D97162808CC9650C8E2898CC2665003BDEB783B74CAFABD0"
+    },
+    {
+      "archivo": "core/menu.php",
+      "tipo": "modificado",
+      "sha256": "449ACA66D690B307680921E1A09BC0A15177D26B10FD2E3C2F84545B2C51EE8B"
+    },
+    {
+      "archivo": "core/sede.php",
+      "tipo": "modificado",
+      "sha256": "1CF3D6710130AF7B190275C9CC1E3A9031E94E228BF0C60E02CAF1B9EA3A8505"
+    },
+    {
+      "archivo": "docs/logistica/ALCANCE_Y_RESPONSABLES.md",
+      "tipo": "nuevo",
+      "sha256": "B25361CF53E27B43D1CC5963DE37ED6F8120DBB28500DB56DBEF3AA935403123"
+    },
+    {
+      "archivo": "docs/logistica/CORRECCION_INICIO_2026-11-18.md",
+      "tipo": "nuevo",
+      "sha256": "7D432958611F10696593DEA98D672B90FDE7F75A209BC781EA501607A9DCA88D"
+    },
+    {
+      "archivo": "docs/logistica/diseno-envios-2026-11-21.jpg",
+      "tipo": "nuevo",
+      "sha256": "0C556C4FF12BF902BA2A4A4893F6DCE6AE8A2655E562E5C0FFC54AA12B2531FA"
+    },
+    {
+      "archivo": "docs/logistica/diseno-formulario-2026-11-21.jpg",
+      "tipo": "nuevo",
+      "sha256": "0C76D07A224C764490DFC67268918719284618E62EC9D66FDB69225EBAB9F025"
+    },
+    {
+      "archivo": "docs/logistica/expediente-verificado.jpg",
+      "tipo": "nuevo",
+      "sha256": "A59ADED90A7D9E47A741861CE629E00E14D2F4CE6ED9C5FF83AE61FB99AC6AD4"
+    },
+    {
+      "archivo": "docs/logistica/pagina-envios-2026-11-21.jpg",
+      "tipo": "nuevo",
+      "sha256": "F485E496ACF269FB2B9CD69A7791850B0930E7CA09E28F37FA6554273363E326"
+    },
+    {
+      "archivo": "docs/logistica/paginas-separadas-2026-11-21.jpg",
+      "tipo": "nuevo",
+      "sha256": "45D578083223136081EA7647D4AB21EA87002FFA2BAAF7A86D2B04D09AA1E481"
+    },
+    {
+      "archivo": "docs/logistica/PLAN_DE_ENTREGA.md",
+      "tipo": "nuevo",
+      "sha256": "54B838E20C55038AC334D3BA98C7DE6B238378D8DB33006F628F25B9686A607D"
+    },
+    {
+      "archivo": "docs/logistica/PRUEBAS_Y_SITUACIONES_2026-11-22.md",
+      "tipo": "nuevo",
+      "sha256": "B6E7BD6DB05C7CE8D92E33B4EBBA75515C50157DBCE05F545DE833368857100D"
+    },
+    {
+      "archivo": "docs/logistica/qa-completo-2026-11-22.json",
+      "tipo": "nuevo",
+      "sha256": "1E4EB40FF66038BF372BE48D8EF8EA7EA0AB7B64669CE2C26BBE22A6AFC459EE"
+    },
+    {
+      "archivo": "docs/logistica/qa-http-2026-11-22.json",
+      "tipo": "nuevo",
+      "sha256": "A551D91F935C4B7438C513AD0F39CABDEED52941BFF4C1B2EEDF0A566138CAEA"
+    },
+    {
+      "archivo": "docs/logistica/qa-integracion-2026-11-22.json",
+      "tipo": "nuevo",
+      "sha256": "0BC8EE8DED2B8C77C4D14FE43F4E862C43AFDF187674DE5E9DB9C40D8E3EFD82"
+    },
+    {
+      "archivo": "docs/logistica/qa-paginas-2026-11-22.json",
+      "tipo": "nuevo",
+      "sha256": "6E0030B8004623A0C551A511AF43FD366C4D25042C6AB4E38B75C085384D7433"
+    },
+    {
+      "archivo": "docs/logistica/qa-sedes-2026-11-22.json",
+      "tipo": "nuevo",
+      "sha256": "D4A6AE2936FD628D009E08C7AE2ACD260E256100A119D668690CF84CAFCA072F"
+    },
+    {
+      "archivo": "docs/logistica/qa-totales-corregidos-2026-11-22.jpg",
+      "tipo": "nuevo",
+      "sha256": "768DF46BBC20DB03AF98B0A722E74D6E66DB7791A43D0478808385838FD60637"
+    },
+    {
+      "archivo": "docs/logistica/resultado-http.json",
+      "tipo": "nuevo",
+      "sha256": "E40CCCB04018DAF780D08B1DB1CD3C00F4297191ADD7BB6F3A622179083DB724"
+    },
+    {
+      "archivo": "docs/logistica/resultado-integracion.json",
+      "tipo": "nuevo",
+      "sha256": "0C59D44CD1BDC85C9A42E1334B4B366B314F76D941A8450C33358E7EA5CF1EB6"
+    },
+    {
+      "archivo": "docs/logistica/resultado-sedes.json",
+      "tipo": "nuevo",
+      "sha256": "D4A6AE2936FD628D009E08C7AE2ACD260E256100A119D668690CF84CAFCA072F"
+    },
+    {
+      "archivo": "docs/logistica/revision-diseno-2026-11-21.json",
+      "tipo": "nuevo",
+      "sha256": "1F856774BED837F9F1DC02EFA8DAB460AFF7614168FD6D1EBB14EB975EA0397D"
+    },
+    {
+      "archivo": "docs/logistica/revision-paginas-2026-11-21.json",
+      "tipo": "nuevo",
+      "sha256": "D5D891C9BE60DB8A108F5AA57308226F26F4A52BEFD49BCA9F01C734F5E56711"
+    },
+    {
+      "archivo": "docs/logistica/VERIFICACION_2026-11-17.md",
+      "tipo": "nuevo",
+      "sha256": "AAAD0CBD3E7A3AF4A7A38CF9BEC9470924B42DD4D477441F4CD4D7DCC0417823"
+    },
+    {
+      "archivo": "docs/logistica/verificacion-paginas-2026-11-21.json",
+      "tipo": "nuevo",
+      "sha256": "D1C8413B9529DDABF82F998FDE5611C05CA5637A3BF5D29E57B62A6BB5B5DF1F"
+    },
+    {
+      "archivo": "LEEME_LOGISTICA.md",
+      "tipo": "nuevo",
+      "sha256": "9E4406ECE4EBC63EC6B1467AB4464C006C38FA50E7E9F45B03BEAE730F23D62A"
+    },
+    {
+      "archivo": "modulos/comercial/operaciones.php",
+      "tipo": "modificado",
+      "sha256": "B11808DA2D21BB1BA391A8F60D355BD555CB7657A746A173EFB6D1037ACBAB23"
+    },
+    {
+      "archivo": "modulos/datahub/app/Services/ErpSyncService.php",
+      "tipo": "modificado",
+      "sha256": "1EE2DBA653164E71801FF87949835D108D42E26680C008043DE0C2320D9045E3"
+    },
+    {
+      "archivo": "modulos/logistica/api.php",
+      "tipo": "modificado",
+      "sha256": "A787692CC7735504463332DDA6C151EC490ED51DD58562ECC390DA6D0B7C66D0"
+    },
+    {
+      "archivo": "modulos/logistica/auditoria.php",
+      "tipo": "nuevo",
+      "sha256": "F6C43286BF2AD470AFDCC6E607C4431EC91B4DFD8E74ACA2F6045E6A6C88FEA6"
+    },
+    {
+      "archivo": "modulos/logistica/compras.php",
+      "tipo": "nuevo",
+      "sha256": "0DDAC1324DBC634C83D1863D974E4AC08CEB50D8679A4493437C17ADC6908B63"
+    },
+    {
+      "archivo": "modulos/logistica/cuentas_por_pagar.php",
+      "tipo": "nuevo",
+      "sha256": "FF737267DA782A40EDB67BEE3FBD5D9D646F2139EE70D6C114BC9BB40C712857"
+    },
+    {
+      "archivo": "modulos/logistica/envio.php",
+      "tipo": "nuevo",
+      "sha256": "67FE4261E1A30958F18F27FAF008DF1CBAD88D8215A3BCF156480BC6D0D4FF27"
+    },
+    {
+      "archivo": "modulos/logistica/envios.php",
+      "tipo": "nuevo",
+      "sha256": "E33B57BCC8D0DF099666EF9E01413202B505BEBA60EE2F16C0676E199B705FE6"
+    },
+    {
+      "archivo": "modulos/logistica/index.php",
+      "tipo": "modificado",
+      "sha256": "F7E0151174AD4708AD6FAC724AD631D84219429BA95007D4D16B9E1E373AC35E"
+    },
+    {
+      "archivo": "modulos/logistica/inventario.php",
+      "tipo": "nuevo",
+      "sha256": "2787847C9961969CAAE8404FE7230CD086575F0115A26EDC01DD6192BBFDCBD5"
+    },
+    {
+      "archivo": "modulos/logistica/kardex.php",
+      "tipo": "nuevo",
+      "sha256": "E948C5BCE81D2217DA5A82F36E6DA779F59BF5D090E2EBEE5A0A9BDC9CF4CA6E"
+    },
+    {
+      "archivo": "modulos/logistica/pagina.php",
+      "tipo": "nuevo",
+      "sha256": "46BF0544E00038A58CEF501A5D5F5DA84BF397E994337E20ADDD31FE1375EA74"
+    },
+    {
+      "archivo": "modulos/logistica/panel.php",
+      "tipo": "nuevo",
+      "sha256": "9CA61E2F6B4096574C7034B3C737781A51EF9A4C9D229D218B1D7258FE02BC6A"
+    },
+    {
+      "archivo": "modulos/logistica/recepciones.php",
+      "tipo": "nuevo",
+      "sha256": "9667AB953989B47A377A28534C80E552A2BADAC0F471F6C8A399EE74D8AFFB8E"
+    },
+    {
+      "archivo": "modulos/logistica/static/app.css",
+      "tipo": "modificado",
+      "sha256": "B973C2D1C67B3ECBCD88D63FABD9FAF51832CDF7D832C53D794DDC04005A52D1"
+    },
+    {
+      "archivo": "modulos/logistica/static/app.js",
+      "tipo": "modificado",
+      "sha256": "1A7F78C4CA73FEE0BD1D5CF6A1972C746AC989B13DD8B0EB4C8B48DDB219DC01"
+    },
+    {
+      "archivo": "modulos/logistica/stock_lib.php",
+      "tipo": "modificado",
+      "sha256": "C087C7EDCF6E87F8749B89989AA9CB08D1319CBB39E711FFF410AFCB74B8C86C"
+    },
+    {
+      "archivo": "modulos/logistica/stock.php",
+      "tipo": "nuevo",
+      "sha256": "CEEA28EFB3AFF1972F37BE7D4028CB16AB848E7ECB0720876ACA6ABE9233B8E0"
+    },
+    {
+      "archivo": "modulos/logistica/traslados.php",
+      "tipo": "nuevo",
+      "sha256": "16A09330DC22ED6102E2771086A9266084F49B6A1086AF9FFD6E5BEE6C229E8C"
+    },
+    {
+      "archivo": "modulos/logistica/workflow.php",
+      "tipo": "nuevo",
+      "sha256": "877FEB1C1687BEF6D73D1F74A04984493DEB54E91B42EC44A9938F131DE4B88F"
+    },
+    {
+      "archivo": "README.md",
+      "tipo": "modificado",
+      "sha256": "BE70985F35E95A16E0B790C083B1382D3273B75826EB8FD038443FF31E38BC0C"
+    },
+    {
+      "archivo": "router.php",
+      "tipo": "modificado",
+      "sha256": "F7EFA8A97752772CA36774A7CB583AAB198227340A304E2A38CDB39E7E59BD4C"
+    },
+    {
+      "archivo": "scripts/detener-logistica-local.ps1",
+      "tipo": "nuevo",
+      "sha256": "E78E52CCF4766B2730884A5032429CA98710F46CE8581C0C61CB62DEF3CC1130"
+    },
+    {
+      "archivo": "scripts/empacar-logistica.ps1",
+      "tipo": "nuevo",
+      "sha256": "32F0E53B7C318DEFED6502A8A3E0D4AE51E7F9D6C8665F6CB3E8F8A8C723BE08"
+    },
+    {
+      "archivo": "scripts/iniciar-logistica-local.ps1",
+      "tipo": "nuevo",
+      "sha256": "9B55D37476CCF598554298DA48596C7289991E781F0BD18B73E493086CB1FF7D"
+    },
+    {
+      "archivo": "scripts/migrar-logistica.php",
+      "tipo": "nuevo",
+      "sha256": "7DBBA82495BA32B1186192434A8DE3306BFF9280342F11FDBBA00421B8067597"
+    },
+    {
+      "archivo": "scripts/native-process.ps1",
+      "tipo": "nuevo",
+      "sha256": "E5F6AFBF4BC7A8D08EBF29DD389A7F52A44515C85BB2DA0756ADDE646E081209"
+    },
+    {
+      "archivo": "scripts/probar-logistica-local.ps1",
+      "tipo": "nuevo",
+      "sha256": "C5B0EA25508A39F9ECC6541F5A618D8A2414C57A7EAC364438AEDFF2C7AB3A62"
+    },
+    {
+      "archivo": "sql/migrations/001_logistica_operativa.sql",
+      "tipo": "nuevo",
+      "sha256": "629E70B880315DB3A78D20A1615C1C4F8C4A71BBA25228C8A22BC848E264A620"
+    },
+    {
+      "archivo": "tests/logistica_http.ps1",
+      "tipo": "nuevo",
+      "sha256": "397615A302CC0E8913B3DAFBF8FEF35D1230A1DE44A41C11F2CF27AC45D8CC0E"
+    },
+    {
+      "archivo": "tests/logistica_integracion.php",
+      "tipo": "nuevo",
+      "sha256": "CBBB2CCC0DE90DE08D8A923F8383DC230AA6B104A53C51A03CD3F4C1F6AEDBD6"
+    },
+    {
+      "archivo": "tests/logistica_paginas.ps1",
+      "tipo": "nuevo",
+      "sha256": "A8C5E021D5066C2936C43BB43CC5E8BBC8570A28EC738BEDA3DF874AF6CC0C05"
+    },
+    {
+      "archivo": "tests/logistica_sedes.php",
+      "tipo": "nuevo",
+      "sha256": "44D3B9AFFA9A8B176CE485F42B01304033CCD1B73F4AFE1997ED630367C96010"
+    },
+    {
+      "archivo": "tests/logistica_ui_decimales.cjs",
+      "tipo": "nuevo",
+      "sha256": "B88A9D810A268E951FC7C18EAEE39BA9A06649F079E96CF63168072E4D7ADF04"
+    }
+  ]
+}

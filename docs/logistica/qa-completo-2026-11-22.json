@@ -1,0 +1,40 @@
+{
+    "ok":  true,
+    "completo":  true,
+    "fecha":  "2026-11-22T00:03:11.9067373-05:00",
+    "pasadas":  449,
+    "suites":  [
+                   {
+                       "suite":  "Negocio",
+                       "ok":  true,
+                       "pasadas":  265,
+                       "evidencia":  ".runtime\\resultado-integracion.json"
+                   },
+                   {
+                       "suite":  "Sedes",
+                       "ok":  true,
+                       "pasadas":  7,
+                       "evidencia":  ".runtime\\resultado-sedes.json"
+                   },
+                   {
+                       "suite":  "HTTP",
+                       "ok":  true,
+                       "pasadas":  33,
+                       "evidencia":  ".runtime\\resultado-http.json"
+                   },
+                   {
+                       "suite":  "Páginas",
+                       "ok":  true,
+                       "pasadas":  115,
+                       "evidencia":  ".runtime\\resultado-paginas.json"
+                   },
+                   {
+                       "suite":  "Interfaz JavaScript",
+                       "ok":  true,
+                       "pasadas":  29,
+                       "evidencia":  ""
+                   }
+               ],
+    "interfaz_omitida":  false,
+    "alcance":  "Instancia QA local. Negocio y permisos se revierten; puede haber saltos AUTO_INCREMENT y registros de acceso de las sesiones de prueba."
+}

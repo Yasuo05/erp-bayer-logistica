@@ -1,0 +1,494 @@
+{
+    "ok":  true,
+    "suite":  "Páginas independientes de Compras, Inventarios y Logística",
+    "fecha":  "2026-11-22T00:03:11.5699188-05:00",
+    "pasadas":  115,
+    "fallos":  0,
+    "casos":  [
+                  {
+                      "caso":  "Guardia local: URL, .env y marcador con datadir exacto",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Sin sesión se exige ingreso antes de mostrar Envíos",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La respuesta anónima no contiene configuración del módulo",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Formulario de acceso real disponible",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Ingreso real con el administrador de ejemplo",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Sesión autenticada muestra el marco del ERP",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La página expone CSRF de la sesión para cambiar sede",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Cambio de sede para la prueba: Todas",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Los envíos de ejemplo se consultan sin crear operaciones",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente de prueba 14 pertenece a sede Mala",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El identificador ausente se calcula a partir de datos reales",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Cambio de sede para la prueba: 2",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Página real disponible: envios.php",
+                      "ok":  true,
+                      "detalle":  "HTTP 200"
+                  },
+                  {
+                      "caso":  "Un único título principal servido por PHP: envios.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Título correcto antes de ejecutar JavaScript: envios.php",
+                      "ok":  true,
+                      "detalle":  "Envíos y entregas"
+                  },
+                  {
+                      "caso":  "Título de navegador identifica la página: envios.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "No hay selector interno de todas las pantallas: envios.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL determina el contenido inicial: envios.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente sólo se selecciona en su URL propia: envios.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Las acciones pueden navegar a páginas reales sin fragmentos: envios.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Página real disponible: envio.php?id=14",
+                      "ok":  true,
+                      "detalle":  "HTTP 200"
+                  },
+                  {
+                      "caso":  "Un único título principal servido por PHP: envio.php?id=14",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Título correcto antes de ejecutar JavaScript: envio.php?id=14",
+                      "ok":  true,
+                      "detalle":  "DP-2026-0014"
+                  },
+                  {
+                      "caso":  "Título de navegador identifica la página: envio.php?id=14",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "No hay selector interno de todas las pantallas: envio.php?id=14",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL determina el contenido inicial: envio.php?id=14",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente sólo se selecciona en su URL propia: envio.php?id=14",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Las acciones pueden navegar a páginas reales sin fragmentos: envio.php?id=14",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Página real disponible: panel.php",
+                      "ok":  true,
+                      "detalle":  "HTTP 200"
+                  },
+                  {
+                      "caso":  "Un único título principal servido por PHP: panel.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Título correcto antes de ejecutar JavaScript: panel.php",
+                      "ok":  true,
+                      "detalle":  "Panel de control"
+                  },
+                  {
+                      "caso":  "Título de navegador identifica la página: panel.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "No hay selector interno de todas las pantallas: panel.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL determina el contenido inicial: panel.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente sólo se selecciona en su URL propia: panel.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Las acciones pueden navegar a páginas reales sin fragmentos: panel.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Página real disponible: stock.php",
+                      "ok":  true,
+                      "detalle":  "HTTP 200"
+                  },
+                  {
+                      "caso":  "Un único título principal servido por PHP: stock.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Título correcto antes de ejecutar JavaScript: stock.php",
+                      "ok":  true,
+                      "detalle":  "Stock por sedes"
+                  },
+                  {
+                      "caso":  "Título de navegador identifica la página: stock.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "No hay selector interno de todas las pantallas: stock.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL determina el contenido inicial: stock.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente sólo se selecciona en su URL propia: stock.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Las acciones pueden navegar a páginas reales sin fragmentos: stock.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Página real disponible: kardex.php?producto=3",
+                      "ok":  true,
+                      "detalle":  "HTTP 200"
+                  },
+                  {
+                      "caso":  "Un único título principal servido por PHP: kardex.php?producto=3",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Título correcto antes de ejecutar JavaScript: kardex.php?producto=3",
+                      "ok":  true,
+                      "detalle":  "Movimientos (Kardex)"
+                  },
+                  {
+                      "caso":  "Título de navegador identifica la página: kardex.php?producto=3",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "No hay selector interno de todas las pantallas: kardex.php?producto=3",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL determina el contenido inicial: kardex.php?producto=3",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente sólo se selecciona en su URL propia: kardex.php?producto=3",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Kardex conserva el producto de la URL",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Las acciones pueden navegar a páginas reales sin fragmentos: kardex.php?producto=3",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Página real disponible: inventario.php",
+                      "ok":  true,
+                      "detalle":  "HTTP 200"
+                  },
+                  {
+                      "caso":  "Un único título principal servido por PHP: inventario.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Título correcto antes de ejecutar JavaScript: inventario.php",
+                      "ok":  true,
+                      "detalle":  "Inventario físico / Ajustes"
+                  },
+                  {
+                      "caso":  "Título de navegador identifica la página: inventario.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "No hay selector interno de todas las pantallas: inventario.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL determina el contenido inicial: inventario.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente sólo se selecciona en su URL propia: inventario.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Las acciones pueden navegar a páginas reales sin fragmentos: inventario.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Página real disponible: compras.php",
+                      "ok":  true,
+                      "detalle":  "HTTP 200"
+                  },
+                  {
+                      "caso":  "Un único título principal servido por PHP: compras.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Título correcto antes de ejecutar JavaScript: compras.php",
+                      "ok":  true,
+                      "detalle":  "Órdenes de compra"
+                  },
+                  {
+                      "caso":  "Título de navegador identifica la página: compras.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "No hay selector interno de todas las pantallas: compras.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL determina el contenido inicial: compras.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente sólo se selecciona en su URL propia: compras.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Las acciones pueden navegar a páginas reales sin fragmentos: compras.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Página real disponible: recepciones.php",
+                      "ok":  true,
+                      "detalle":  "HTTP 200"
+                  },
+                  {
+                      "caso":  "Un único título principal servido por PHP: recepciones.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Título correcto antes de ejecutar JavaScript: recepciones.php",
+                      "ok":  true,
+                      "detalle":  "Recepción de mercadería"
+                  },
+                  {
+                      "caso":  "Título de navegador identifica la página: recepciones.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "No hay selector interno de todas las pantallas: recepciones.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL determina el contenido inicial: recepciones.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente sólo se selecciona en su URL propia: recepciones.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Las acciones pueden navegar a páginas reales sin fragmentos: recepciones.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Página real disponible: traslados.php",
+                      "ok":  true,
+                      "detalle":  "HTTP 200"
+                  },
+                  {
+                      "caso":  "Un único título principal servido por PHP: traslados.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Título correcto antes de ejecutar JavaScript: traslados.php",
+                      "ok":  true,
+                      "detalle":  "Traslados entre sedes"
+                  },
+                  {
+                      "caso":  "Título de navegador identifica la página: traslados.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "No hay selector interno de todas las pantallas: traslados.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL determina el contenido inicial: traslados.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente sólo se selecciona en su URL propia: traslados.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Las acciones pueden navegar a páginas reales sin fragmentos: traslados.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Página real disponible: cuentas_por_pagar.php",
+                      "ok":  true,
+                      "detalle":  "HTTP 200"
+                  },
+                  {
+                      "caso":  "Un único título principal servido por PHP: cuentas_por_pagar.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Título correcto antes de ejecutar JavaScript: cuentas_por_pagar.php",
+                      "ok":  true,
+                      "detalle":  "Cuentas por pagar"
+                  },
+                  {
+                      "caso":  "Título de navegador identifica la página: cuentas_por_pagar.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "No hay selector interno de todas las pantallas: cuentas_por_pagar.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL determina el contenido inicial: cuentas_por_pagar.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente sólo se selecciona en su URL propia: cuentas_por_pagar.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Las acciones pueden navegar a páginas reales sin fragmentos: cuentas_por_pagar.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Página real disponible: auditoria.php",
+                      "ok":  true,
+                      "detalle":  "HTTP 200"
+                  },
+                  {
+                      "caso":  "Un único título principal servido por PHP: auditoria.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Título correcto antes de ejecutar JavaScript: auditoria.php",
+                      "ok":  true,
+                      "detalle":  "Auditoría de operaciones"
+                  },
+                  {
+                      "caso":  "Título de navegador identifica la página: auditoria.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "No hay selector interno de todas las pantallas: auditoria.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL determina el contenido inicial: auditoria.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El expediente sólo se selecciona en su URL propia: auditoria.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Las acciones pueden navegar a páginas reales sin fragmentos: auditoria.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El menú separa el grupo Compras",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El grupo Compras ofrece sus enlaces reales independientes",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El menú separa el grupo Inventarios",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El grupo Inventarios ofrece sus enlaces reales independientes",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El menú separa el grupo Logística",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El grupo Logística ofrece sus enlaces reales independientes",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La antigua entrada dirige a la página de Envíos",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Un expediente inexistente devuelve 404",
+                      "ok":  true,
+                      "detalle":  "id calculado: 15"
+                  },
+                  {
+                      "caso":  "Identificador de expediente inválido devuelve 400: envio.php?id=abc",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Identificador de expediente inválido devuelve 400: envio.php?id=-1",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Identificador de expediente inválido devuelve 400: envio.php",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "Cambio de sede para la prueba: 1",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "La URL de un expediente de otra sede devuelve 403",
+                      "ok":  true
+                  },
+                  {
+                      "caso":  "El rechazo de sede no entrega la configuración del expediente",
+                      "ok":  true
+                  }
+              ],
+    "limpieza":  "Sede de la sesión QA restaurada y sesión cerrada.",
+    "alcance":  "HTTP real sin ejecutar JavaScript; sólo GET y POST de acceso/cambio de sede. No se crean operaciones comerciales ni logísticas."
+}

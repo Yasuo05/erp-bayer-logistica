@@ -1,0 +1,20 @@
+# Dependencias de Composer (se instalan con "composer install")
+/vendor/
+
+# Configuración local con contraseñas (usar .env.example como plantilla)
+.env
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Certificados digitales (contienen la llave privada)
+/storage/certificados/
+
+# Esquemas XSD oficiales de UBL 2.1 (se descargan aparte)
+/storage/xsd/

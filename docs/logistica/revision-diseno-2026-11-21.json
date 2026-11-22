@@ -1,0 +1,41 @@
+{
+  "fecha": "2026-11-21",
+  "alcance": "Integración visual de Logística con Catálogo y Comercial del ERP existente",
+  "archivos_interfaz": [
+    "modulos/logistica/index.php",
+    "modulos/logistica/static/app.js",
+    "modulos/logistica/static/app.css"
+  ],
+  "referencias": [
+    "assets/css/style.css",
+    "core/crud_base.php",
+    "core/erp_marco.php",
+    "modulos/comercial/operaciones.php"
+  ],
+  "validacion": {
+    "secciones_cargadas": 10,
+    "encabezados_h1_por_seccion": 1,
+    "seccion_activa_por_vista": 1,
+    "filas_envios": 14,
+    "filtro_preparacion": 4,
+    "filtro_cancelados": 1,
+    "busqueda_sin_resultados_y_limpiar": "correcto",
+    "modal_nativo_y_cierre_Esc": "correcto",
+    "errores_consola": 0,
+    "desbordamiento_horizontal_pagina": false,
+    "fuente": "Plus Jakarta Sans",
+    "color_primario": "rgb(46, 139, 61)",
+    "pruebas_http": 33,
+    "sintaxis_php": "correcta",
+    "sintaxis_javascript": "correcta"
+  },
+  "capturas": [
+    "diseno-envios-2026-11-21.jpg",
+    "diseno-formulario-2026-11-21.jpg"
+  ],
+  "limites": [
+    "Revisión visual de escritorio en el tamaño existente del navegador; no se simuló un dispositivo móvil.",
+    "No se modificaron las reglas de negocio, el esquema ni los registros operativos.",
+    "Las cifras históricas de las suites de negocio se conservan por separado; esta revisión ejecutó navegación visual y la suite HTTP."
+  ]
+}

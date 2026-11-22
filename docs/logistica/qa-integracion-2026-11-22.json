@@ -1,0 +1,1075 @@
+{
+    "ok": true,
+    "suite": "Logística: funciones reales, inventario y persistencia en QA aislada",
+    "pasadas": 265,
+    "fallos": 0,
+    "escenarios": 18,
+    "rollback_final": true,
+    "resultados": [
+        {
+            "prueba": "Guardia de host, puerto y directorio QA exacto",
+            "ok": true
+        },
+        {
+            "prueba": "Todas las tablas afectadas existen y usan InnoDB",
+            "ok": true
+        },
+        {
+            "prueba": "Una milésima conserva su valor entero exacto",
+            "ok": true
+        },
+        {
+            "prueba": "Tres decimales conservan 1.125 sin redondeo",
+            "ok": true
+        },
+        {
+            "prueba": "Normalización de DECIMAL(18,4) de la base sin perder información",
+            "ok": true
+        },
+        {
+            "prueba": "Cantidad inválida rechazada: 0.0001",
+            "ok": true
+        },
+        {
+            "prueba": "Cantidad inválida rechazada: 1.0009",
+            "ok": true
+        },
+        {
+            "prueba": "Cantidad inválida rechazada: 1e3",
+            "ok": true
+        },
+        {
+            "prueba": "Cantidad inválida rechazada: -1",
+            "ok": true
+        },
+        {
+            "prueba": "Cantidad inválida rechazada: NaN",
+            "ok": true
+        },
+        {
+            "prueba": "Cantidad inválida rechazada: 1,25",
+            "ok": true
+        },
+        {
+            "prueba": "Una cuarta cifra no nula de la base no se redondea",
+            "ok": true
+        },
+        {
+            "prueba": "Comercial crea un despacho real y metadatos logísticos",
+            "ok": true
+        },
+        {
+            "prueba": "Reservar no cambia existencia física",
+            "ok": true
+        },
+        {
+            "prueba": "Reserva comercial agrega exactamente 100",
+            "ok": true
+        },
+        {
+            "prueba": "Reservar no genera una salida en Kardex",
+            "ok": true
+        },
+        {
+            "prueba": "Confirmar de nuevo no crea otro despacho\/reserva",
+            "ok": true
+        },
+        {
+            "prueba": "Duplicado comercial conserva saldo e historial",
+            "ok": true
+        },
+        {
+            "prueba": "Una línea comercial conserva un solo despacho",
+            "ok": true
+        },
+        {
+            "prueba": "Segundo producto dispone de 5 antes de confirmar",
+            "ok": true
+        },
+        {
+            "prueba": "La segunda línea insuficiente rechaza la confirmación completa",
+            "ok": true
+        },
+        {
+            "prueba": "El rechazo identifica stock insuficiente",
+            "ok": true
+        },
+        {
+            "prueba": "El rollback comercial mantiene la transacción exterior",
+            "ok": true
+        },
+        {
+            "prueba": "La venta vuelve a borrador al fallar su segunda línea",
+            "ok": true
+        },
+        {
+            "prueba": "No queda un despacho parcial de la primera línea",
+            "ok": true
+        },
+        {
+            "prueba": "Primera línea conserva stock y reserva anteriores",
+            "ok": true
+        },
+        {
+            "prueba": "Segunda línea conserva stock y reserva anteriores",
+            "ok": true
+        },
+        {
+            "prueba": "Fallo multilínea revierte metadatos, Kardex, auditoría y demás filas",
+            "ok": true
+        },
+        {
+            "prueba": "Una venta con dos líneas genera exactamente dos despachos",
+            "ok": true
+        },
+        {
+            "prueba": "La reserva devuelve dos referencias diferentes",
+            "ok": true
+        },
+        {
+            "prueba": "Las líneas de 60 y 40 reservan 100 en conjunto",
+            "ok": true
+        },
+        {
+            "prueba": "Reservar las dos líneas no duplica la existencia",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Los dos despachos referencian la misma guía compatible",
+            "ok": true
+        },
+        {
+            "prueba": "Compartir una guía no crea una segunda cabecera",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Primera salida descuenta sólo 60",
+            "ok": true
+        },
+        {
+            "prueba": "Tras salir 60 se conservan las 40 reservadas de la segunda línea",
+            "ok": true
+        },
+        {
+            "prueba": "Primera salida no adelanta la segunda",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Ambas salidas descuentan exactamente 100",
+            "ok": true
+        },
+        {
+            "prueba": "Ambas salidas consumen sólo las reservas de esas líneas",
+            "ok": true
+        },
+        {
+            "prueba": "Se conserva una salida en Kardex por despacho",
+            "ok": true
+        },
+        {
+            "prueba": "Kardex de ambas referencias suma 100, sin doble descuento",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Primera línea conserva su balance entregado de 60",
+            "ok": true
+        },
+        {
+            "prueba": "Segunda línea tiene balance independiente de 15 recibidas y 25 pendientes",
+            "ok": true
+        },
+        {
+            "prueba": "Aceptar la segunda línea no modifica metadatos de la primera",
+            "ok": true
+        },
+        {
+            "prueba": "Segunda línea no puede consumir las cantidades de la primera: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Segunda línea no puede consumir las cantidades de la primera: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "cerrar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Cerrar primera línea mantiene abierta la segunda",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "cerrar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Las entregas y cierres no vuelven a tocar stock",
+            "ok": true
+        },
+        {
+            "prueba": "Primera línea conserva un intento propio",
+            "ok": true
+        },
+        {
+            "prueba": "Segunda línea conserva sus dos intentos propios",
+            "ok": true
+        },
+        {
+            "prueba": "Guía compartida conserva número, versión y cliente",
+            "ok": true
+        },
+        {
+            "prueba": "Guía compartida conserva su detalle de 100",
+            "ok": true
+        },
+        {
+            "prueba": "Al terminar sigue existiendo sólo una guía compartida",
+            "ok": true
+        },
+        {
+            "prueba": "Preparar sin transporte: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Preparar sin transporte: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Se alcanza preparado con origen DECIMAL(18,4) válido",
+            "ok": true
+        },
+        {
+            "prueba": "Salir sin guía: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Salir sin guía: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "Guía de otro cliente: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Guía de otro cliente: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Versión obsoleta: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Versión obsoleta: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "Guía modificada después de asociar: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Guía modificada después de asociar: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Revisión y reasociación de versión permiten salir",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Salida descuenta existencia física una vez",
+            "ok": true
+        },
+        {
+            "prueba": "Salida consume sólo su reserva",
+            "ok": true
+        },
+        {
+            "prueba": "Una salida en Kardex",
+            "ok": true
+        },
+        {
+            "prueba": "Kardex registra las 100 salidas",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Aceptación completa deja pendiente cero",
+            "ok": true
+        },
+        {
+            "prueba": "Aceptación completa marca entrega física",
+            "ok": true
+        },
+        {
+            "prueba": "Entrega no descuenta stock otra vez",
+            "ok": true
+        },
+        {
+            "prueba": "cerrar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Cierre normal persistido",
+            "ok": true
+        },
+        {
+            "prueba": "Historia conserva preparar, guía, salida, intento y cierre",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "emitir_guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Emisión crea y asocia una guía real",
+            "ok": true
+        },
+        {
+            "prueba": "Emisión no crea documentos adicionales",
+            "ok": true
+        },
+        {
+            "prueba": "Guía operativa sale validada",
+            "ok": true
+        },
+        {
+            "prueba": "Guía deriva el producto del despacho",
+            "ok": true
+        },
+        {
+            "prueba": "Guía deriva su cantidad autorizada",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Emisión repetida tras salir devuelve respuesta original",
+            "ok": true
+        },
+        {
+            "prueba": "Replay de emisión no crea guía huérfana",
+            "ok": true
+        },
+        {
+            "prueba": "Replay de emisión conserva expediente",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Número de guía duplicado: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Número de guía duplicado: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "Número duplicado no deja otro documento",
+            "ok": true
+        },
+        {
+            "prueba": "Replay de emitir sin permiso crear: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Replay de emitir sin permiso crear: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "emitir_guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Expediente nuevo no está marcado como legado",
+            "ok": true
+        },
+        {
+            "prueba": "Existe una sola guía de origen para el despacho antes de sincronizar",
+            "ok": true
+        },
+        {
+            "prueba": "Sincronización G9 en preparación respeta la transacción exterior",
+            "ok": true
+        },
+        {
+            "prueba": "Sincronizador público ejecuta sus tres bloques reales",
+            "ok": true
+        },
+        {
+            "prueba": "G9 en preparación conserva número, versión, estado y detalle de la guía",
+            "ok": true
+        },
+        {
+            "prueba": "G9 no crea una segunda guía para el envío preparado",
+            "ok": true
+        },
+        {
+            "prueba": "G9 en preparación no modifica el expediente o inventario físico",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "La guía sigue vigente para autorizar la salida tras sincronizar",
+            "ok": true
+        },
+        {
+            "prueba": "Sincronización G9 después de salir conserva la transacción exterior",
+            "ok": true
+        },
+        {
+            "prueba": "G9 después de salir conserva íntegra la guía operativa",
+            "ok": true
+        },
+        {
+            "prueba": "La misma guía emitida permanece idéntica antes y después del recorrido",
+            "ok": true
+        },
+        {
+            "prueba": "G9 no duplica guía después de la salida",
+            "ok": true
+        },
+        {
+            "prueba": "G9 después de salir no altera balance, Kardex ni historial",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Aceptar 60 sin rechazo deja 40 pendientes",
+            "ok": true
+        },
+        {
+            "prueba": "Aceptación de 60 no se etiqueta como rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Despacho permanece abierto con saldo",
+            "ok": true
+        },
+        {
+            "prueba": "Cierre prematuro: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Cierre prematuro: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "FALLIDA sin receptor ni cantidades conserva 40 pendientes",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Reintento concilia exactamente las 100",
+            "ok": true
+        },
+        {
+            "prueba": "Tres intentos independientes quedan auditados",
+            "ok": true
+        },
+        {
+            "prueba": "Los intentos no vuelven a tocar stock",
+            "ok": true
+        },
+        {
+            "prueba": "cerrar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Rechazo de 20 sigue siendo pendiente",
+            "ok": true
+        },
+        {
+            "prueba": "Rechazo no ingresa existencias",
+            "ok": true
+        },
+        {
+            "prueba": "Rechazo genera caso cuantitativo sin doble stock",
+            "ok": true
+        },
+        {
+            "prueba": "Cerrar con rechazo pendiente: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Cerrar con rechazo pendiente: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "resolver: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Retorno de 12 deja 8 en custodia",
+            "ok": true
+        },
+        {
+            "prueba": "Retorno real agrega sólo 12 al almacén",
+            "ok": true
+        },
+        {
+            "prueba": "Retorno no crea una reserva nueva",
+            "ok": true
+        },
+        {
+            "prueba": "Kardex contiene entrada de retorno por 12",
+            "ok": true
+        },
+        {
+            "prueba": "Contrato actual: resolver 12 deja la incidencia cerrada aunque queden 8",
+            "ok": true
+        },
+        {
+            "prueba": "Límite actual: una segunda resolución parcial requiere otra incidencia: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Límite actual: una segunda resolución parcial requiere otra incidencia: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "Segunda resolución del mismo caso rechazada conserva las 8 pendientes",
+            "ok": true
+        },
+        {
+            "prueba": "incidencia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "resolver: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Pérdida no repite egreso ni ingresa stock",
+            "ok": true
+        },
+        {
+            "prueba": "Balance excepcional: 100 = 80 + 12 + 8 + 0",
+            "ok": true
+        },
+        {
+            "prueba": "Retorno repetido devuelve resultado original",
+            "ok": true
+        },
+        {
+            "prueba": "Retorno repetido no duplica entrada ni resolución",
+            "ok": true
+        },
+        {
+            "prueba": "cerrar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Retorno\/pérdida conserva un cierre excepcional",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Reintento de 12 produce 92 aceptadas",
+            "ok": true
+        },
+        {
+            "prueba": "Reintento deja sólo 8 pendientes",
+            "ok": true
+        },
+        {
+            "prueba": "Reintento no se cuenta como retorno",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "incidencia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Intento con bloqueo abierto: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Intento con bloqueo abierto: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "resolver: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "cerrar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Resolver bloqueo permite cerrar después del saldo cero",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "incidencia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Reclamo informativo no duplica mercancía pendiente",
+            "ok": true
+        },
+        {
+            "prueba": "cerrar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Una incidencia informativa abierta permite cierre físico completo",
+            "ok": true
+        },
+        {
+            "prueba": "Cierre conserva el reclamo informativo para trazabilidad",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Replay tras avanzar devuelve versión original",
+            "ok": true
+        },
+        {
+            "prueba": "Replay se identifica expresamente",
+            "ok": true
+        },
+        {
+            "prueba": "Replay de salida no agrega movimiento ni historial",
+            "ok": true
+        },
+        {
+            "prueba": "Misma clave y contenido distinto: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Misma clave y contenido distinto: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "Replay sin permiso vigente: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Replay sin permiso vigente: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "Se restaura permiso de QA dentro de la transacción",
+            "ok": true
+        },
+        {
+            "prueba": "Replay con rol revocado al usuario: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Replay con rol revocado al usuario: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "Asignación de rol restaurada después de QA",
+            "ok": true
+        },
+        {
+            "prueba": "Replay con usuario desactivado: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Replay con usuario desactivado: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "Usuario permanece activo al restaurar QA",
+            "ok": true
+        },
+        {
+            "prueba": "cancelar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Cancelar conserva existencia física",
+            "ok": true
+        },
+        {
+            "prueba": "Cancelar libera exactamente su reserva",
+            "ok": true
+        },
+        {
+            "prueba": "Cancelar antes de salir no crea entrada\/salida",
+            "ok": true
+        },
+        {
+            "prueba": "Cancelación conserva el estado del proceso",
+            "ok": true
+        },
+        {
+            "prueba": "Repetir cancelar no libera dos veces",
+            "ok": true
+        },
+        {
+            "prueba": "Repetir cancelar es replay",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Cancelación después de salir: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Cancelación después de salir: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "Comando de otra sede activa: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Comando de otra sede activa: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "Lectura directa del expediente de otra sede se rechaza",
+            "ok": true
+        },
+        {
+            "prueba": "Comando sin permiso persistido: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "Comando sin permiso persistido: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "configurar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "preparar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "guia: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "salir: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Salida real de 1.125 conserva tres decimales",
+            "ok": true
+        },
+        {
+            "prueba": "No se acepta una cuarta cifra decimal del formulario: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "No se acepta una cuarta cifra decimal del formulario: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "No se acepta más que el saldo: código de rechazo",
+            "ok": true
+        },
+        {
+            "prueba": "No se acepta más que el saldo: no cambia expediente, saldo ni registros",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Una milésima aceptada deja exactamente 1.124",
+            "ok": true
+        },
+        {
+            "prueba": "intento: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "La suma física fraccionaria es exacta",
+            "ok": true
+        },
+        {
+            "prueba": "cerrar: conserva la transacción del llamador",
+            "ok": true
+        },
+        {
+            "prueba": "Comercial no redondea una cantidad de cuatro decimales no nulos",
+            "ok": true
+        },
+        {
+            "prueba": "Cantidad incompatible no crea despacho",
+            "ok": true
+        },
+        {
+            "prueba": "Cantidad incompatible no altera reserva",
+            "ok": true
+        },
+        {
+            "prueba": "Unidad comercial incompatible se rechaza antes de reservar",
+            "ok": true
+        },
+        {
+            "prueba": "Unidad incompatible conserva existencia y reserva",
+            "ok": true
+        },
+        {
+            "prueba": "Rollback final restaura filas y saldos anteriores",
+            "ok": true
+        }
+    ],
+    "limites": [
+        "No verifica HTTP, CSRF ni representación visual.",
+        "Los fixtures y cambios de permisos se revierten; los contadores AUTO_INCREMENT pueden conservar saltos propios de InnoDB."
+    ],
+    "evidencia": ".runtime\/resultado-integracion.json"
+}

@@ -1,0 +1,35 @@
+{
+    "ok": true,
+    "pasadas": 7,
+    "rollback_final": true,
+    "casos": [
+        {
+            "caso": "Asignación únicamente inactiva no concede otras sedes",
+            "ok": true
+        },
+        {
+            "caso": "Filtro general sin sedes no devuelve operaciones",
+            "ok": true
+        },
+        {
+            "caso": "Almacenes permitidos vacíos no significan acceso global",
+            "ok": true
+        },
+        {
+            "caso": "Lista logística queda vacía",
+            "ok": true
+        },
+        {
+            "caso": "Consulta directa de expediente sin sede rechazada",
+            "ok": true
+        },
+        {
+            "caso": "Comando sin sede se rechaza antes del replay",
+            "ok": true
+        },
+        {
+            "caso": "Rollback conserva sedes, asignaciones, existencias y envíos",
+            "ok": true
+        }
+    ]
+}
